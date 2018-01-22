@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F9FED856-B1DA-4FA2-BEBD-1885D4F973D7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PruebaTaller/AppDelegate.cs">
+    <Files>
+      <File FileName="PruebaTaller/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Vista.PruebaTaller.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.515D3785-6153-41BA-9E9B-7FE12FAE71E7">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Vista.PruebaTaller.iOS>
+</Properties>

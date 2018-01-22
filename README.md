@@ -1,2 +1,2 @@
 # TestMVP
-This is an example of MVP
+This is an example of Model View Prensenter in Xamarin iOS.

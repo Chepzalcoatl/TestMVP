@@ -1,0 +1,14 @@
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/bin/iPhone/Debug/PruebaTaller.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/mscorlib.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/System.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/Mono.Security.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/System.Xml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/System.Core.dll
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller.Entidades/bin/Debug/PruebaTaller.Entidades.dll
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller.Presentador/bin/Debug/PruebaTaller.Presentador.dll
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller.Presentador/bin/Debug/PruebaTaller.Datos.dll
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller.Presentador/bin/Debug/RestSharp.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/System.Runtime.Serialization.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mono/Xamarin.iOS/System.ServiceModel.Internals.dll

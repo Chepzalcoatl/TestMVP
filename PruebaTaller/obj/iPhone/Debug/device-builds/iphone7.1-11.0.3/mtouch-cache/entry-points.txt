@@ -1,0 +1,23 @@
+Function=xamarin_timezone_get_data
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/mscorlib.dll
+Function=UIApplicationMain
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhone/Debug/device-builds/iphone7.1-11.0.3/mtouch-cache/Link/System.dll
+Function=mono_pmip

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{F9FED856-B1DA-4FA2-BEBD-1885D4F973D7}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PruebaTaller</RootNamespace>
+    <AssemblyName>PruebaTaller</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>48258</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>21047</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\First.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\First.imageset\vector.pdf" />
+    <ImageAsset Include="Assets.xcassets\Second.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Second.imageset\vector.pdf" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%402x.png" />
+    <ImageAsset Include="Assets.xcassets\CheckIn.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CheckIn.imageset\checkin.png" />
+    <ImageAsset Include="Assets.xcassets\CheckIn.imageset\checkin%402x.png" />
+    <ImageAsset Include="Assets.xcassets\CheckIn.imageset\checkin%403x.png" />
+    <ImageAsset Include="Assets.xcassets\CheckOut.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CheckOut.imageset\checkout.png" />
+    <ImageAsset Include="Assets.xcassets\CheckOut.imageset\checkout%402x.png" />
+    <ImageAsset Include="Assets.xcassets\CheckOut.imageset\checkout%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="ViewControllers\" />
+    <Folder Include="Assets.xcassets\CheckIn.imageset\" />
+    <Folder Include="Assets.xcassets\CheckOut.imageset\" />
+    <Folder Include="Source\" />
+    <Folder Include="Modales\" />
+    <Folder Include="CustomViewControllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Modales.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Modales\CargandoViewController.cs" />
+    <Compile Include="Modales\CargandoViewController.designer.cs">
+      <DependentUpon>CargandoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomViewControllers\CustomTableViewController.cs" />
+    <Compile Include="CustomViewControllers\CustomViewController.cs" />
+    <Compile Include="Modales\DateComboBoxViewController.cs" />
+    <Compile Include="Modales\DateComboBoxViewController.designer.cs">
+      <DependentUpon>DateComboBoxViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modales\ModalActionViewController.cs" />
+    <Compile Include="Modales\ModalActionViewController.designer.cs">
+      <DependentUpon>ModalActionViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modales\ModalActionWithCancelViewController.cs" />
+    <Compile Include="Modales\ModalActionWithCancelViewController.designer.cs">
+      <DependentUpon>ModalActionWithCancelViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\TableRegistrosSource.cs" />
+    <Compile Include="Source\TableViewCellRegistro.cs" />
+    <Compile Include="Source\TableViewCellRegistro.designer.cs">
+      <DependentUpon>TableViewCellRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\RegistrosTableViewController.cs" />
+    <Compile Include="ViewControllers\RegistrosTableViewController.designer.cs">
+      <DependentUpon>RegistrosTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\ViewControllerAgregarEditaEntrada.cs" />
+    <Compile Include="ViewControllers\ViewControllerAgregarEditaEntrada.designer.cs">
+      <DependentUpon>ViewControllerAgregarEditaEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\ViewControllerDetalleEntrada.cs" />
+    <Compile Include="ViewControllers\ViewControllerDetalleEntrada.designer.cs">
+      <DependentUpon>ViewControllerDetalleEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\TableSalidaSource.cs" />
+    <Compile Include="Source\TableViewCellSalida.cs" />
+    <Compile Include="Source\TableViewCellSalida.designer.cs">
+      <DependentUpon>TableViewCellSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\ViewControllerNuevaSalida.cs" />
+    <Compile Include="ViewControllers\ViewControllerNuevaSalida.designer.cs">
+      <DependentUpon>ViewControllerNuevaSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\TableViewControllerSalidas.cs" />
+    <Compile Include="ViewControllers\TableViewControllerSalidas.designer.cs">
+      <DependentUpon>TableViewControllerSalidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\ViewControllerDetalleSalida.cs" />
+    <Compile Include="ViewControllers\ViewControllerDetalleSalida.designer.cs">
+      <DependentUpon>ViewControllerDetalleSalida.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\taller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaTaller.Entidades\PruebaTaller.Entidades.csproj">
+      <Project>{C65CCFCF-F486-49B8-83C6-F28B9882C08F}</Project>
+      <Name>PruebaTaller.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PruebaTaller.Presentador\PruebaTaller.Presentador.csproj">
+      <Project>{B0D28885-FCAB-46DB-8352-400B7D3D075B}</Project>
+      <Name>PruebaTaller.Presentador</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

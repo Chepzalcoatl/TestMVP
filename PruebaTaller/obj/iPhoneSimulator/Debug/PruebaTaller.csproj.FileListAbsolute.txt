@@ -1,0 +1,10 @@
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/bin/iPhoneSimulator/Debug/PruebaTaller.exe
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/bin/iPhoneSimulator/Debug/PruebaTaller.pdb
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/taller.png
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/PruebaTaller.csproj.CoreCompileInputs.cache
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/PruebaTaller.exe
+/Users/eduardobarron/Projects/PruebaTaller/PruebaTaller/obj/iPhoneSimulator/Debug/PruebaTaller.pdb
